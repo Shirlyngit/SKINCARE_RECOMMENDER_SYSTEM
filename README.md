@@ -1,4 +1,4 @@
-# Skincare recommender system
+# 🌝 Skincare recommender system
 
 
 
@@ -6,27 +6,16 @@
 ## Introduction 
 This repository contains code and resources for a skincare recommender system project. The primary objective of this project is to analyze skincare data and provide personalized recommendations to users.
 
-## Table of contents 
-- [Data](##Data)
-- [Modeling](##Modeling)
-- [Evaluation](#Evaluation)
-- [Deployment](##Model-Deployment)
-- [Conclusion](#Conclusion)
-- [Recommendations](#Recommendations)
-- [Next Steps](#Next-Steps)
-- [Challenges](#Challenges)
 
-
-
-  ## Data
+  ## 🧾Data
   
   The dataset contains :
 
-  * user reviews (over 1 million on over 2,000 products) of all products from the Skincare category, including user appearances, and review ratings by other users
+  * User reviews (over 1 million on over 2,000 products) of all products from the Skincare category, including user appearances, and review ratings by other users.
 
  
 
- ## Modeling
+ ## 🛠 Modeling
  The following models were developed:
  
  **Memory-Based Collaborative Filtering**
@@ -34,6 +23,8 @@ This repository contains code and resources for a skincare recommender system pr
 * **Model 1: Nearest Neighbors Model**: This model utilizes a Nearest Neighbors algorithm to find similar skincare profiles and make recommendations based on their preferences. The Nearest Neighbors algorithm calculates the similarity between a given user's skincare profile and other profiles in the dataset and then recommends products that have been positively rated by similar users.
 
 * **Model 2: KNNBasic Model**: This  utilizes a K-Nearest Neighbors algorithm to find similar skincare profiles and make recommendations based on their preferences.
+
+
  
  **User-Based Collaborative Filtering**
  
